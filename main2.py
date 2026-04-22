@@ -1,8 +1,8 @@
 import streamlit as st
 import json
 import datetime
-from modules.ai_client import generate_novel_response
-from modules.db_manager import init_db, save_message, get_history
+from ai_client import generate_novel_response
+from db_manager import init_db, save_message, get_history
 
 # 1. 初始化頁面與資料庫
 st.set_page_config(page_title="韓文網文 AI 小說家", page_icon="✍️", layout="centered")
